@@ -34,7 +34,7 @@ The control system features a feedback loop comprising a summation block, a PID 
 <img src="https://github.com/user-attachments/assets/c3c8c681-f021-4cc5-9011-700bc81ccd4b" alt="Image 1" width="45%" style="display: inline-block;"/>
 </p>
 
-_Fig:(Right)Tunede parameters with stable system.(Left):Graph analysis_
+_Fig:(Right)Tuned parameters with stable system.(Left):Graph analysis_
 ## PID Transfer Function 2
 _File 4:pid_2.slx_
 * **Feedback Control System:** Represents a feedback loop with a step input, summation block, PID controller, and a transfer function to maintain a stable output based on error correction.<br/>
@@ -48,7 +48,7 @@ _File 4:pid_2.slx_
   <img src="https://github.com/user-attachments/assets/0526f7db-9a81-48f1-aeb0-d2d7651364bb" alt="Image 2" width="45%" style="display: inline-block;"/>
 </p><br/>
 
-_Fig:(Right)Tunede parameters with stable system.(Left):Graph analysis._
+_Fig:(Right)Tuned parameters with stable system.(Left):Graph analysis._
 ## Water Tank Temperature monitoring
 _File 5:room_temp.slx_
 
