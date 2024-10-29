@@ -7,4 +7,4 @@ This project includes various Branches
 ## MATLAB and Simulink Files
 All MATLAB and Simulink files are located in the **`MatLab and Simulink`** branch. You can access these files by clicking the link below:
 
-[Click here to view the Matlab And Simulink branch](https://github.com/Praveen-Oruganti/Ramaiah-Skill-Academy-RSAGWPVLSI17/blob/matLabAndSimuLink/description.md)
+[Click here to view the Matlab And Simulink Branch](https://github.com/Praveen-Oruganti/Ramaiah-Skill-Academy-RSAGWPVLSI17/blob/matLabAndSimuLink) &nbsp;&nbsp;[Click here to view the Matlab And Simulink Description](https://github.com/Praveen-Oruganti/Ramaiah-Skill-Academy-RSAGWPVLSI17/blob/matLabAndSimuLink/description.md)
