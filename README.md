@@ -3,6 +3,11 @@
 This repository includes various Branches
 
 ## MATLAB and Simulink
-All MATLAB and Simulink files are located in the **`MatLab and Simulink`** branch. You can access these files by clicking the link below:
+MATLAB and Simulink files are located in the **`MatLab and Simulink`** branch. You can access these files by clicking the link below:
 
 [Click here to view the Matlab And Simulink Branch](https://github.com/Praveen-Oruganti/Ramaiah-Skill-Academy-RSAGWPVLSI17/blob/matLabAndSimuLink)
+
+## ARDUINO
+Arduino files are located in the **arduino** branch. You can access these files by clicking the link below:
+
+[Click here to view the arduino Branch](https://github.com/Praveen-Oruganti/Ramaiah-Skill-Academy-RSAGWPVLSI17/blob/arduino)
