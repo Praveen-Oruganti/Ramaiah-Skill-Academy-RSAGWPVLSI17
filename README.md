@@ -76,8 +76,13 @@ _file name:RC_calculation.slx_
 <br/>
 This file implements a Simulink model to simulate the response of an RC circuit to a step input voltage using a stair generator. The model uses a stair generator with defined time intervals [0,2,4,6,8,10][0,2,4,6,8,10] seconds and corresponding amplitudes [1,5,1,5,0,5][1,5,1,5,0,5] volts to observe the charging and discharging behavior of the capacitor. The simulation results include the charging and discharging curves, allowing for an analysis of the time constant of the RC circuit.<br/>
 <br/>
-![image](https://github.com/user-attachments/assets/dc491667-60e0-463d-84a4-9afec5f69a8a)
-_Fig:The graph above represents the charging and discharging curves of the capacitor over time._
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5fdf0cb7-c6b1-49a3-9711-7b59debcca61" alt="led module" width="45%" height="250" style="display: inline-block;"/>
+  <img src="https://github.com/user-attachments/assets/dc491667-60e0-463d-84a4-9afec5f69a8a" alt="internal circuit" width="45%" height="250" style="display: inline-block;"/>
+  
+  __Fig:(left)The graph above represents the charging and discharging curves of the capacitor over time for step input.(Right)Output for stair case generator._
+</div>
+
 ## Washing Machine
 _fil name:washingMachine.slx_
 <br/>
