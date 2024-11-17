@@ -23,20 +23,20 @@ RISC-V processors offer an efficient and flexible framework. Let’s break down 
 _Pipeline Stages in RISC V._
 </div>
 
-**Execution Pipeline** <br/>
+**1. Execution Pipeline** <br/>
 Typically, the RISC-V processor implements a pipelined architecture where multiple instruction phases are overlapped.The basic stages are as follows:<br/>
 
-**1.Fetch:** The instruction is fetched from the memory.<br/>
+- **Fetch:** The instruction is fetched from the memory.<br/>
 
-**2. Decode:** Next, the instruction is decoded to determine the operation and operands involved.<br/>
+- **Decode:** Next, the instruction is decoded to determine the operation and operands involved.<br/>
 
-**3. Execute:** Appropriate functional units are used to perform this operation (arithmetic logic unit).<br/>
+- **Execute:** Appropriate functional units are used to perform this operation (arithmetic logic unit).<br/>
 
-**4. Memory Access:** If the instruction involves memory, data is loaded from or stored in memory.<br/>
+- **Memory Access:** If the instruction involves memory, data is loaded from or stored in memory.<br/>
 
-**5. Write Back:** The result of the operation is written back to a register.<b/>
+- **Write Back:** The result of the operation is written back to a register.<br/>
 
-**Floating Point Operations**  
+**2. Floating Point Operations**  
 
 Like most instruction sets, RISC-V also has a set of instructions for floating points and the instructions follow the IEEE 754 standard. This kind of compliance is crucial for maintaining the consistency of the operations performed on floating points across Implementations. Key aspects include:
   - **Floating-Point Registers:** RISC-V has special floating-point registers that are separate from the general-purpose registers. This makes the result of numerical calculations faster.
@@ -46,7 +46,7 @@ Like most instruction sets, RISC-V also has a set of instructions for floating p
 ## Calculation
 _File:calculation.asm_ <br>
 
-This program performs a simple arithmetic calculation involving multiplication and addition. Given inputs AA, BB, and DD stored in registers**x10, x11, and x12** respectively, the program calculates **C=A×B+DC=A×B+D.**<br> The result is stored in register x13. This program uses the mul instruction to multiply AA and BB, and the add instruction to add DD to the product. It is efficient, requiring only two instructions to complete the operation.<br>
+This program performs a simple arithmetic calculation involving multiplication and addition. Given inputs AA, BB, and DD stored in registers **x10, x11, and x12** respectively, the program calculates **C=A×B+DC=A×B+D.** <br/> The result is stored in register x13. This program uses the mul instruction to multiply AA and BB, and the add instruction to add DD to the product. It is efficient, requiring only two instructions to complete the operation.<br>
 
 ## Reverse Array
 _File:reverseArray.asm_
@@ -56,8 +56,7 @@ This program reverses the elements of an array in memory. The base address of th
 ## Check Prime
 _File:NumberNPrime.asm_
 
-This program determines whether a given integer NN is a prime number. The number NN is provided in **register x10**. The program iteratively checks divisors starting from 2 up to NN
-​. If NN is divisible by any number in this range, it is not prime, and the program sets **x11 to 0. Otherwise, x11 is set to 1.** The loop employs the rem instruction to calculate the remainder and uses conditional branching (beq) to determine divisibility. The algorithm is optimized by stopping when a divisor squared exceeds NN, reducing the number of iterations required.<br>
+This program determines whether a given integer NN is a prime number. The number NN is provided in **register x10**. The program iteratively checks divisors starting from **2 up to NN**.<br/>If NN is divisible by any number in this range, it is not prime, and the program sets **x11 to 0.** Otherwise, **x11 is set to 1.** The loop employs the rem instruction to calculate the remainder and uses conditional branching (beq) to determine divisibility. The algorithm is optimized by stopping when a divisor squared exceeds NN, reducing the number of iterations required.<br>
 
 ## Fibonacci Sequence
 _File:fibonacciSequence.asm_ <br>
